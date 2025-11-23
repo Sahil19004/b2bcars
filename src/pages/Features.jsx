@@ -3,7 +3,7 @@ import React from "react";
 export default function Features() {
   return (
     <>      
-    <div className="our-features">
+    <div className="our-features" id="features">
        <div className="row section-row">
                 <div className="col-lg-12">
                     

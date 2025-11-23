@@ -22,7 +22,7 @@ export default function Services() {
   return (
     <> 
      
-        <div className="row section-row">
+        <div className="row section-row" id='product'>
           <div className="col-lg-12">
             <div className="section-title section-title-center">
               <h3 className="wow fadeInUp">Our Services</h3>
@@ -37,7 +37,7 @@ export default function Services() {
     
       
 
-        <div className="row container-fluid">
+        <div className="row container-fluid" >
             
           <div className="col-lg-12">
             <div className="our-services-box tab-content wow fadeInUp" data-wow-delay="0.4s" id="servicestab">

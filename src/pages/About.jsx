@@ -10,7 +10,7 @@ const About = () => {
   };
 
   return (
-    <div className="about-us">
+    <div className="about-us" id='aboutss'>
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6">

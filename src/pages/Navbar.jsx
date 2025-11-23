@@ -174,72 +174,26 @@ const Navbar = () => {
             <div className={`main-menu ${isMenuOpen ? 'show' : ''}`}>
               <div className="nav-menu-wrapper">
                 <ul className="navbar-nav" id="menu">
-                  <li className={`nav-item submenu ${activeSubmenu === 0 ? 'active' : ''}`} onClick={() => toggleSubmenu(0)}>
-                    <a className="nav-link" href="index.html">Home</a>
-                    <ul>
-                      <li className="nav-item">
-                        <a className="nav-link" href="index.html">Home - Main</a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="https://html.awaikenthemes.com/rankio/index-image.html">Home - Image</a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="https://html.awaikenthemes.com/rankio/index-video.html">Home - Video</a>
-                      </li>
-                    </ul>
+                  <li className={`nav-item ${activeSubmenu === 0 ? 'active' : ''}`} onClick={() => toggleSubmenu(0)}>
+                    <a className="" href="">Home</a>
+                  
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="https://html.awaikenthemes.com/rankio/about.html">About Us</a>
+                    <a className="nav-link" href="#product">Products</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="https://html.awaikenthemes.com/rankio/services.html">Services</a>
+                    <a className="nav-link" href="#features">Features</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="https://html.awaikenthemes.com/rankio/blog.html">Blog</a>
+                    <a className="nav-link" href="#pricing">Plans & Pricing</a>
                   </li>
-                  <li className={`nav-item submenu ${activeSubmenu === 1 ? 'active' : ''}`} onClick={() => toggleSubmenu(1)}>
-                    <a className="nav-link" href="#">Pages</a>
-                    <ul>
-                      <li className="nav-item">
-                        <a className="nav-link" href="https://html.awaikenthemes.com/rankio/service-single.html">Service Details</a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="https://html.awaikenthemes.com/rankio/blog-single.html">Blog Details</a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="https://html.awaikenthemes.com/rankio/projects.html">Projects</a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="https://html.awaikenthemes.com/rankio/project-single.html">Project details</a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="https://html.awaikenthemes.com/rankio/team.html">Our Team</a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="https://html.awaikenthemes.com/rankio/team-single.html">Team Details</a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="https://html.awaikenthemes.com/rankio/pricing.html">Pricing Plan</a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="https://html.awaikenthemes.com/rankio/testimonials.html">Testimonials</a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="https://html.awaikenthemes.com/rankio/image-gallery.html">Image Gallery</a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="https://html.awaikenthemes.com/rankio/video-gallery.html">Video Gallery</a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="https://html.awaikenthemes.com/rankio/faqs.html">FAQs</a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="https://html.awaikenthemes.com/rankio/404.html">404</a>
-                      </li>
-                    </ul>
-                  </li>
+                 
                   <li className="nav-item">
-                    <a className="nav-link" href="https://html.awaikenthemes.com/rankio/contact.html">Contact Us</a>
+                    <a className="nav-link" href="#aboutss" >About Us</a>
+                  </li>
+                 
+                  <li className="nav-item">
+                    <a className="nav-link" href="">Contact Us</a>
                   </li>
                 </ul>
               </div>

@@ -4,7 +4,7 @@ const Pricing=()=>{
     return(
 
         <>
-          <div className="our-pricing">
+          <div className="our-pricing" id="pricing">
           <div className="row section-row">
                 <div className="col-lg-12">
                  

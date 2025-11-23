@@ -45,7 +45,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="hero bg-section">
+    <div className="hero bg-section" id='hero'>
     
 
       <div className="container">

@@ -15,6 +15,7 @@ import Testimonial from './pages/Testimonial'
 import Cta from './pages/Cta'
 import Blog from './pages/Blog'
 import Footer from './pages/Footer'
+import './App.css'
 function App() {
 
     return(<>
